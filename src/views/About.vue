@@ -42,12 +42,10 @@ export default {
 
     // 获取 github 数据
     getHttpData() {
-      // getTestData()
-      // .then(response => {
-      // 	console.log(response)
-
-      // 	this.dataStatus = '获取成功'
-      // })
+      getTestData()
+      .then(response => {
+      	console.log(response)
+      })
       //   this.dataStatus.a++;
       this.$set(this.dataStatus, "c", 3);
     }

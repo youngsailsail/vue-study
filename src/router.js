@@ -9,7 +9,6 @@ Vue.use(Router)
 let base = `${process.env.BASE_URL}`
 
 export default new Router({
-  mode: 'history',
   base: base,
   routes: [
     {

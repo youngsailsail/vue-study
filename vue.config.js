@@ -16,8 +16,8 @@ const resolve = dir => {
 
 module.exports = {
     // outputDir: 'dist',
-    // assetsDir:'assets',
-    // publicPath:'./',
+    assetsDir:'vue',
+    publicPath:'./',
 	productionSourceMap: true,
 	chainWebpack: config => {
 	    config.module
